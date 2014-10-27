@@ -1,0 +1,40 @@
+#map-canvas {
+    height: 30%;
+    margin: 0px;
+    padding: 0px
+}
+
+.grass-header {
+    background: url('../img/grass.jpg') no-repeat center center;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
+    padding: 65px 0 200px 0; 
+}
+
+.grass-header h1{
+    color: white;
+    -webkit-text-shadow: 0px 0px 33px 3px rgba(0,0,0,0.75);
+    -moz-text-shadow: 0px 0px 33px 3px rgba(0,0,0,0.75);
+    text-shadow: 0px 0px 33px #000000;
+}
+
+/* remove terms of use..*/
+a[href^="http://maps.google.com/maps"]{
+    display:none !important
+}
+
+.gmnoprint a, .gmnoprint span {
+    display:none;
+}
+.gmnoprint div {
+    background:none !important;
+}
+
+.map-header {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
